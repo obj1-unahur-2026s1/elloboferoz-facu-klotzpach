@@ -3,9 +3,9 @@ object caperucita {
 }
 
 object canasta {
-    var manzanas = 6
-    method peso() = manzanas * 0.2
+    var manzana = 6
+    method peso() = manzana * 0.2
     method caer() {
-        manzanas = 0.(manzanas - 1)
+        manzana = 0.(manzana - 1)
     }
 }
